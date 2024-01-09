@@ -17,10 +17,10 @@ public class aaa {
 		// TODO Auto-generated method stub
 		 char[][] asientos = new char[15][15];
 	     inicializarAsientos(asientos); // Inicializar todos los asientos como libres
-
+	     
 	        boolean salir = false;
 	        Scanner scanner = new Scanner(System.in);
-
+	        
 	        while (!salir) {
 	            mostrarAsientos(asientos); // Mostrar la matriz de asientos en la consola
 
@@ -46,7 +46,7 @@ public class aaa {
 
 	        scanner.close();
 	    }
-
+     
 	    public static void inicializarAsientos(char[][] asientos) {
 	        for (int i = 0; i < asientos.length; i++) {
 	            for (int j = 0; j < asientos[i].length; j++) {
