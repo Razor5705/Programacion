@@ -15,20 +15,20 @@ public class aaa {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 char[][] asientos = new char[15][15];
+		 char[][] asientos = new char[10][10];
 	     inicializarAsientos(asientos); // Inicializar todos los asientos como libres
 	     
 	        boolean salir = false;
-	        Scanner scanner = new Scanner(System.in);
+	        Scanner sc = new Scanner(System.in);
 	        
 	        while (!salir) {
 	            mostrarAsientos(asientos); // Mostrar la matriz de asientos en la consola
 
 	            System.out.println("Ingrese el número de fila (0-9):");
-	            int fila = scanner.nextInt();
+	            int fila = sc.nextInt();
 
 	            System.out.println("Ingrese el número de columna (0-9):");
-	            int columna = scanner.nextInt();
+	            int columna = sc.nextInt();
 
 	            if (verificarAsiento(asientos, fila, columna)) {
 	                marcarAsiento(asientos, fila, columna); // Marcar el asiento como ocupado
@@ -37,14 +37,14 @@ public class aaa {
 	            }
 
 	            System.out.println("¿Desea salir? (S/N)");
-	            String opcion = scanner.next();
+	            String opcion = sc.next();
 
 	            if (opcion.equalsIgnoreCase("S")) {
 	                salir = true;
 	            }
 	        }
 
-	        scanner.close();
+	        sc.close();
 	    }
      
 	    public static void inicializarAsientos(char[][] asientos) {
