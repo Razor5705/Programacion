@@ -2,9 +2,9 @@ package Coche;
 
 public class Libro {
 
-	String Titulo;
-	String Autor;
-	int numPaginas;
+	 String Titulo;
+	 String Autor;
+	 int numPaginas;
 
 	public Libro() {
 		
