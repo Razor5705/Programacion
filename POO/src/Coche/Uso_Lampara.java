@@ -7,7 +7,7 @@ public class Uso_Lampara {
 
 		Lampara God = new Lampara();
 		
-		System.out.println("Mi Lampara tiene como tipo " +  God.tipo + " tambien tiene " + God.potencia + " potencia y tiene " + God.color + " color"  );
+		System.out.println("Mi Lampara tiene es de tipo " +  God.tipo + ", tambien tiene " + God.potencia + " de potencia y es de color " + God.color  );
 	}
 
 }
