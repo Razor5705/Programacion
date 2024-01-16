@@ -9,7 +9,7 @@ public class Estudiante {
     public Estudiante() {
     	nombre = "Messi";
     	edad = 16;
-    	calificacion = 100;
+    	calificacion = 100.00;
     }
     
     // GETTERS
@@ -43,7 +43,7 @@ public class Estudiante {
     }
     
     public void set_calificacion(Double calificacion) {
-    	if (calificacion < 0 || calificacion > 100) {
+    	if (calificacion < 0.00 || calificacion > 100.00) {
     		this.calificacion = calificacion;	
     	} else {
     		System.out.println("Invalido. La calificacion tiene que estar entre el 0 y el 100");
