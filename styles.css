@@ -11,11 +11,10 @@ body {
 article header {
     background-color: #e7d84c;
     image-resolution: 4px;
-    color: #fff;
+    color: #3d3d3d;
     padding: 1em 0;
     text-align: center;
-    text-decoration: line-through;
-    text-size-adjust: calc(180px);
+    text-size-adjust: calc(60px);
     white-space: inherit;
     text-shadow: #252424;
     text-combine-upright: initial;
@@ -24,9 +23,10 @@ article header {
 
 article {
 
-    border-color: cadetblue;
-    border-top-width: 0lvb;
-    box-shadow: #252424;
+    border-color: rgb(185, 207, 207);
+    border-top-width: 3cm;
+    box-shadow: #3d3d3d;
+    text-align: left;
 }
 
 /* Títulos */
@@ -37,16 +37,18 @@ h1, h2 {
 /* Fecha del artículo */
 article header time {
     font-style: italic;
-    color: #2b2626;
+    color: #353131;
 }
 
 /* Estilos para las secciones */
 section {
-    background-color: #252424;
+    background-color: #353232;
     margin: 0.5em;
     padding: 1em;
-    border-radius: 5px;
-    box-shadow: 15 5px 15px rgba(1,0,5,0.1);
+    border-radius: 10px;
+    box-shadow: 5 5px 15px rgba(75, 75, 75, 0.1);
+    text-shadow: #fff;
+    text-decoration-color: rgb(255, 255, 255);
 }
 
 /* Estilos para listas */
