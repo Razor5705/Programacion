@@ -3,19 +3,19 @@ body {
     line-height: 1.0;
     margin: 0;
     padding: 0;
-    background-color: #e9ec22;
+    background-color: #c9c9c1;
     color: #252424;
-
+    background-image: linear-gradient(
+        to bottom,
+        rgba(231, 231, 0, 0.5),
+        rgba(44, 124, 216, 0.5)
+      ), url("boca_juniors.jpg");
 }
 
 
 /* Estilo para el encabezado del artículo */
 article header {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(255, 255, 0, 0.5),
-        rgba(88, 88, 155, 0.5)
-      ), url("boca_juniors.jpg");
+    background-color: #0099ff;
     image-resolution: 4px;
     color: #fffefe;
     padding: 1em 0;
@@ -24,6 +24,7 @@ article header {
     white-space: inherit;
     text-shadow: #fff6f6;
     text-combine-upright: initial;
+    opacity: calc(80%);
     
 }
 
