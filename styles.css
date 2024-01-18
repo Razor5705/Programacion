@@ -7,8 +7,8 @@ body {
     color: #252424;
     background-image: linear-gradient(
         to bottom,
-        rgba(231, 231, 0, 0.5),
-        rgba(44, 124, 216, 0.5)
+        rgba(3, 184, 255, 0.5),
+        rgba(253, 255, 109, 0.5)
       ), url("boca_juniors.jpg");
 }
 
