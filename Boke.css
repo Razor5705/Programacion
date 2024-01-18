@@ -1,20 +1,13 @@
 body {
-   background-color: blue;
+   background-color: rgb(21, 117, 212);
    color: rgb(223, 223, 14);
    margin: 0%;
    padding: 0;
    line-height: 2.8;
-   line-break: auto;
    font-family: 'Segoe UI', fantasy, Geneva, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
 }
 
-section {
-    background-color: #241f1f;
-    margin: 0cqi
-    padding: 2em;
-    border-radius: 15px;
-    box-shadow: 0 10px 15px rgba(0,0,0,1.1);
-}
+
 
 
 form label {
@@ -34,7 +27,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-    background-color: #28a745;
+    background-color: #0582f7;
     color: rgb(255, 255, 255);
     border: none;
     padding: 0.7em 2em;

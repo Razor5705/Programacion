@@ -1,7 +1,6 @@
 /* Estilos globales */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+    line-height: 1.0;
     margin: 0;
     padding: 0;
     background-color: #bbb9b9;
@@ -10,13 +9,16 @@ body {
 
 /* Estilo para el encabezado del artículo */
 article header {
-    background-color: #429af8;
+    background-color: #e7d84c;
     image-resolution: 60px;
     color: #fff;
     padding: 1em 0;
     text-align: center;
     text-decoration: line-through;
+    text-size-adjust: calc(180px);
     white-space: inherit;
+    text-shadow: #252424;
+    text-combine-upright: initial;
     
 }
 
@@ -40,38 +42,38 @@ article header time {
 
 /* Estilos para las secciones */
 section {
-    background-color: #fff;
-    margin: 1em;
+    background-color: #252424;
+    margin: 0.5em;
     padding: 1em;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    box-shadow: 15 5px 15px rgba(1,0,5,0.1);
 }
 
 /* Estilos para listas */
 ul {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 ul ul {
-    list-style-type: circle;
+    list-style-type: square;
 }
 
 /* Estilos para el formulario */
 form {
     background-color: #293138;
     padding: 1em;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 form label {
-    display: block;
+    display: inline-block;
     margin-bottom: 0.5em;
 }
 
 form input[type="text"],
 form input[type="email"],
 form textarea {
-    width: 100%;
+    width: 120%;
     padding: 0.5em;
     margin-bottom: 1em;
     border: 1px solid #ddd;
@@ -79,54 +81,50 @@ form textarea {
 }
 
 form input[type="submit"] {
-    background-color: #28a745;
-    color: white;
+    background-color: #2074f1;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 0.7em 2em;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.6s;
 }
 
 form input[type="submit"]:hover {
-    background-color: #218838;
+    background-color: #0f55ec;
 }
 
 /* Estilos para tablas */
 table {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 1em;
+    mask-border-mode: 4;
+    margin-top: 3em;
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 2px solid #f7e70b;
 }
 
 th, td {
-    text-align: left;
-    padding: 8px;
+    text-align: center;
+    padding: 10px;
 }
 
 thead {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 /* Media queries para responsividad. Aún no hemos dado esto y solamente lo quiero mencionar. Busca su significado */
 /* aplicar estilos diferentes a un documento HTML en función de las características del 
 dispositivo en el que se visualiza la página, 
 principalmente basándose en el tamaño de la pantalla y la resolución. */
-@media (max-width: 600px) {
+@media (max-width: 450px){
     body {
-        background-color: #e3f2fd;
-    }
-
-    article header {
-        padding: 0.5em 0;
-    }
-
-    form input[type="submit"] {
-        width: 100%;
+        line-height: 0.8;
+        margin: 1;
+        padding: 1em;
+        background-color: #bbb9b9;
+        color: #252424;
     }
 }
