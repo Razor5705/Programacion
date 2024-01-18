@@ -4,16 +4,27 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #bbb9b9;
+    color: #252424;
 }
 
 /* Estilo para el encabezado del artículo */
 article header {
-    background-color: #007bff;
+    background-color: #429af8;
+    image-resolution: 60px;
     color: #fff;
     padding: 1em 0;
     text-align: center;
+    text-decoration: line-through;
+    white-space: inherit;
+    
+}
+
+article {
+
+    border-color: cadetblue;
+    border-top-width: 0lvb;
+    box-shadow: #252424;
 }
 
 /* Títulos */
@@ -24,7 +35,7 @@ h1, h2 {
 /* Fecha del artículo */
 article header time {
     font-style: italic;
-    color: #f4f4f4;
+    color: #2b2626;
 }
 
 /* Estilos para las secciones */
@@ -47,7 +58,7 @@ ul ul {
 
 /* Estilos para el formulario */
 form {
-    background-color: #f8f9fa;
+    background-color: #293138;
     padding: 1em;
     border-radius: 8px;
 }
