@@ -56,7 +56,11 @@ section {
     box-shadow: 5 5px 15px rgba(75, 75, 75, 0.1);
     text-shadow: #fff;
     text-decoration-color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
 }
+section:hover {
+    background-color: rgb(83, 82, 81);
+  }
 
 /* Estilos para listas */
 ul {
