@@ -8,7 +8,7 @@ public class CuentaBancaria {
 	public CuentaBancaria() {
 		
 		Titular = "BBVA";
-		saldo = 9999.99;
+		saldo = -9999.99;
 	}
 	
 	// GETTERS
@@ -30,7 +30,7 @@ public class CuentaBancaria {
 	
     public void set_saldo(Double saldo) {
 		
-		if (saldo >= 0) {
+		if (saldo >= 0.00) {
 			this.saldo = saldo;
 		} else {
 			System.out.println("Saldo Invalido. Este saldo no puede ser negativo o nulo");

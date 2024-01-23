@@ -7,8 +7,8 @@ public class Uso_CuentaBancaria {
 
 		CuentaBancaria CuentadeNiko = new CuentaBancaria();
 		
+		System.out.println(CuentadeNiko.getsaldo());	
 		System.out.println(CuentadeNiko.getTitular());
-		System.out.println(CuentadeNiko.getsaldo());
 
 	}
 
