@@ -1,8 +1,7 @@
-package Coche;
+/*package Coche;
 
 public class Curso {
 
-	private static final String getCalificacion = null;
 	private String nombrecurso;
 	private double calificacion;
 
@@ -90,3 +89,5 @@ public class Curso {
 }
 	
 }
+
+*/
