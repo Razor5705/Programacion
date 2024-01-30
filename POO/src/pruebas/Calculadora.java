@@ -1,4 +1,4 @@
-package pruebas;
+/*package pruebas;
 
 import javax.swing.JOptionPane;
 
@@ -53,3 +53,4 @@ class Impuestos {
 	}
 	
 }
+*/
