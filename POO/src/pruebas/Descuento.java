@@ -4,8 +4,6 @@ import javax.swing.JOptionPane;
 
 public class Descuento {
 
-	
-
 	public static void main(String[] args) {
 		
 		String Pan_Horneado = "Pan Horneado";
@@ -26,8 +24,6 @@ public class Descuento {
         System.out.println();
         System.out.println(CantidadProducto2.DescontarProducto());
 
-
-  
 	}
 }
 
