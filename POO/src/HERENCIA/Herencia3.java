@@ -3,8 +3,10 @@ package HERENCIA;
 public class Herencia3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+     Perro Beagle = new Perro();
+     
+     System.out.println(Beagle.emitirSonido());
+   
+}
+	
 }
