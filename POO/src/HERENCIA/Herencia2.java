@@ -3,7 +3,7 @@ package HERENCIA;
 public class Herencia2 {
 
 	public static void main(String[] args) {
-        
+        //EJERCICIO 2
 		Estudiante estudiante1 = new Estudiante(19, "Jose", "Ingeniería Informática");
 
 		System.out.println("Edad: " +estudiante1.getEdad());
@@ -13,4 +13,5 @@ public class Herencia2 {
 	
 	}
 
+	
 }

@@ -2,6 +2,7 @@ package HERENCIA;
 
 public class Estudiante extends Persona{
 
+	
 	String carrera ;
 	
 	public Estudiante(int edad, String nombre, String carrera) {
