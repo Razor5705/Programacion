@@ -6,7 +6,9 @@ public class Vehiculo {
      int año;
      
      public Vehiculo() {
-    	 
+    	  marca = "Ford_Mazda";
+    	  modelo = "CX_30";
+    	  año = 2015;
      }
      
      public Vehiculo(String marca, String modelo, int año) {

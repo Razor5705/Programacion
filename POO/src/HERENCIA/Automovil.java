@@ -5,7 +5,7 @@ public class Automovil extends Vehiculo{
 	String tipodecombustible;
 	
 	public Automovil() {
-		
+		tipodecombustible = "gaseoso";
 	}
 	
 	public Automovil(String marca, String modelo, int año, String tipodecombustible) {
