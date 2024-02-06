@@ -14,6 +14,7 @@ public class Herencia4 {
        circu = (Circulo) ola;
     	   
        
+       
 	}
 
 }
