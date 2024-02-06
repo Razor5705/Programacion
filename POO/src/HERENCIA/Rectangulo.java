@@ -1,6 +1,6 @@
 package HERENCIA;
 
-public class Rectangulo {
+public class Rectangulo extends Figura{
 
 	int area_rectangulo = 0;
 	int base = 10;
