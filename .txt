@@ -1,0 +1,100 @@
+Ejercicio 1:
+
+plate
+
+Ejercicio 2:
+
+bento
+
+Ejercicio 3:
+
+#fancy
+
+Ejercicio 4:
+
+plate apple
+
+Ejercicio 5:
+
+#fancy apple
+
+Ejercicio 6:
+
+apple.small
+
+Ejercicio 7:
+
+orange.small
+
+Ejercicio 8:
+
+bento orange.small
+
+Ejercicio 9:
+
+plate , bento
+
+Ejercicio 10:
+
+*
+
+Ejercicio 11:
+
+plate *
+
+Ejercicio 12:
+
+plate + apple
+
+Ejercicio 13:
+
+bento ~ pickle
+
+Ejercicio 14:
+
+plate > apple
+
+Ejercicio 15:
+
+orange: first-child
+
+Ejercicio 16:
+
+plate :only-child
+
+Ejercicio 17:
+
+.small:last-child
+
+Ejercicio 18:
+
+:ntd-child(3)
+
+Ejercicio 19:
+
+bento:nth-last-child(3)
+
+Ejercicio 20:
+apple: first-of-type
+
+Ejercicio 21:
+
+:nth-of-type(even)
+
+Ejercicio 22:
+
+:nth-of-type(2n+3)
+
+Ejercicio 23:
+
+apple :only-of-type
+
+Ejercicio 24:
+
+.small :last-of-type
+
+Ejercicio 25:
+
+bento:empty
+
+Ejercicio 26:
