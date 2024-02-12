@@ -7,13 +7,11 @@ public class Herencia4 {
        figuras [0] = new Circulo ();
        figuras [1] = new Rectangulo ();
        
-       Figura ola = new Figura ();
+       Rectangulo ola = new Rectangulo ();
        Circulo circu = new Circulo ();
        
-       ola = circu;
-       circu = (Circulo) ola;
-    	   
-       
+       System.out.println(ola.calculararea());
+       System.out.println(circu.calculararea());
        
 	}
 
