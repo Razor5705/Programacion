@@ -8,3 +8,7 @@ public class Notificaciones {
 	}
 
 }
+
+interface Notificable {
+	void enviarNotificacion();
+}
