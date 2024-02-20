@@ -8,7 +8,7 @@ public class Procesamiento {
 		ProcesadordePago proveedorB = new Proveedor2();
 		
 		Cliente clienteA = new Cliente(proveedorA);
-		Cliente clienteB = new Cliente(proveedorA);
+		Cliente clienteB = new Cliente(proveedorB);
 
 		clienteA.Reembolsarpago();
 		clienteB.Realizarpago();
