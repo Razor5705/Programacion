@@ -19,24 +19,30 @@ public class Ejer_02 {
      lista.add(1,"Nikolas");
      lista.add("Poeta");
      lista.add("Francisco MVP");
-     
-     for (String eLe : lista) {
+
+     for(int i = 0; i<lista.size();i++) 
+    	 System.out.println(lista.get(i));
+ 
+     System.out.println();
+
+     for (String eLe : lista) 
     	    System.out.println(eLe);
-	}
-     
+	
      System.out.println();
-     
-     for (int n : tb) {
+       
+     for (int n : tb) 
  	    System.out.println(n);
-	}
-     
+	
      System.out.println();
-
      
-     for (int i = 0; i < tb.length; i++) {
-		System.out.println(tb[i]);
-	}
+     for (int i1 = 0; i1 < tb.length; i1++) 
+		System.out.println(tb[i1]);
+	
      
 	}
 
-}
+     }
+     
+	
+	
+
