@@ -6,15 +6,13 @@ public class Biblioteca_Datos {
 
 	public static void main(String[] args) {
 		 Dato1 dato1 = new Dato1(15);
-		
 		Datos datos = new Datos();
-		
         datos.filtrar();
-        
+       
         
         datos.ordenar();
-        
         dato1.mostrar();
+        
 	}
 
 }
