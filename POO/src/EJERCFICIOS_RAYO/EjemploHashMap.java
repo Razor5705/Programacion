@@ -15,6 +15,20 @@ public class EjemploHashMap {
        lista.put("Kiwis", 13);
 
        lista.put("Melocotones", 15);
+       
+       
+       lista.remove("peras");
+       lista.remove("uvas");
+       
+       if(lista.containsKey("Manzanas")) {
+    	   System.out.println("Existen las manzanas");
+       } else {
+    	   System.out.println("Existen las manzanas");
+       }
+
+      System.out.println("Nº de elementos es "+lista.size());  
+	 
+            
 
        for(String key : lista.keySet()) {
     	  System.out.println(key + " " + lista.get(key));
