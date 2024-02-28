@@ -1,6 +1,7 @@
 package EJERCFICIOS_RAYO;
 
 import java.util.HashMap;
+import java.util.Map.Entry;
 
 public class EjemploHashMap {
 
@@ -18,8 +19,19 @@ public class EjemploHashMap {
        for(String key : lista.keySet()) {
     	  System.out.println(key + " " + lista.get(key));
     	  
-    	  
        }
+       System.out.println();
+       
+    	for(Integer valor: lista.values()) {
+    		System.out.println(valor);
+    	}
+       
+        System.out.println();
+
+    	for(Entry<String, Integer> elemento : lista.entrySet()){
+    		System.out.println(elemento.getKey() + " " + elemento.getValue());
+    	}
+    	 
 	}
 
 }
