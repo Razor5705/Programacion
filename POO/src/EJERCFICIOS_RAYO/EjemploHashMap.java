@@ -17,6 +17,8 @@ public class EjemploHashMap {
 
        for(String key : lista.keySet()) {
     	  System.out.println(key + " " + lista.get(key));
+    	  
+    	  
        }
 	}
 
